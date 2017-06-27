@@ -10,10 +10,10 @@ T2T是一个模块化和可扩展的库和二进制文件，用于基于TensorFl
 *	T2T Overview<br>
     * Datasets<br>
     * Problems and Modalities<br>
-   * Models
-   * Hyperparameter Sets
-   * Trainer
-    *	Adding your own components
+    * Models<br>
+   * Hyperparameter Sets<br>
+   * Trainer<br>
+*	Adding your own components
 *	Adding a dataset
 --------------------------------------------------------------------------------
 ## Walkthrough<br>
