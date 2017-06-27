@@ -4,7 +4,7 @@ T2T是一个模块化和可扩展的库和二进制文件，用于基于TensorFl
 我们渴望你加入到T2T的拓展中来，你可以尽情在github上提问或者发送一个pull request来添加你的数据库或者模型。可以参阅contribution doc来进一步了解T2T的细节及存在的问题。同时也可以在Gitter上与我们及其他使用者交流。<br>
 
 **目录**<br>
-* Walkthrough
+* Walkthrough(https://github.com/superwj1990/tensor2tensor/blob/master/README.md#walkthrough)
 *	Installation
 *	Features
 *	T2T Overview<br>
