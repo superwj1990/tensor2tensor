@@ -4,17 +4,17 @@ T2T是一个模块化和可扩展的库和二进制文件，用于基于TensorFl
 我们渴望你加入到T2T的拓展中来，你可以尽情在github上提问或者发送一个pull request来添加你的数据库或者模型。可以参阅contribution doc来进一步了解T2T的细节及存在的问题。同时也可以在Gitter上与我们及其他使用者交流。<br>
 
 **目录**<br>
-* Walkthrough<br>
-*	Installation<br>
-*	Features<br>
-*	T2T Overview<br>
-   *    Datasets
-   * Problems and Modalities<br>
-   * Models<br>
-   * Hyperparameter Sets<br>
-   * Trainer<br>
-*	Adding your own components<br>
-*	Adding a dataset<br>
+* Walkthrough
+*	Installation
+*	Features
+*	T2T Overview
+  * Datasets
+  * Problems and Modalities
+  * Models
+  * Hyperparameter Sets
+  * Trainer
+*	Adding your own components
+*	Adding a dataset
 --------------------------------------------------------------------------------
 ## Walkthrough<br>
 这是在WMT数据上训练一个英语-德语翻译模型的walkthrough，采用《Attention Is All You Need》中的Transformer模型。<br>
