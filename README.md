@@ -126,6 +126,7 @@ python -c "from tensor2tensor.models.transformer import Transformer"
 
 ### Trainer<br>
 **Trainer**二进制文件是训练，评价和推断的主要入口。用户可以通过`--model`，`--problems`和`--hparams_set`标记，轻松地在问题、模型和超参数集之间切换。特定的hyperparameters可以通过`--hparams`标记覆写。`--schedule`和相关标记控制本地和分布式的训练/评价（distributed training documentation）。<br>
+
 --------------------------------------------------------------------------------
 ## 添加你的components<br>
 T2T的components使用一个central registration mechanism进行注册，这使得我们可以很容易添加新的component，且可以通过command-line标记来在它们之间轻松地进行切换。你可以通过指定`t2t-trainer`中的`--t2t_usr_dir`标记来添加你自己的components，而不用编辑T2T的基本代码。<br>
@@ -157,8 +158,9 @@ t2t-trainer --t2t_usr_dir=~/usr/t2t_usr --registry_help
 
 你可以在注册的HParams下看到你的`transformer_my_very_own_hparams_set`，你可以直接通过`--hparams_set`标记在命令行直接使用它。<br>
 
-## 添加一个dataset
+## 添加一个dataset<br>
 参见data generators README。<br>
+
 --------------------------------------------------------------------------------
 注释：这不是谷歌的官方资料。<br>
 
