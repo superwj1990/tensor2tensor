@@ -134,7 +134,7 @@ T2T的components使用一个central registration mechanism进行注册，这使�
 你现在可以对 models，hyperparameter sets和modalities进行这些操作。如果你的component对其他人有帮助，你可以提交一个pull request。<br>
 
 这里是一个新的超参数集的示例：
-```
+```python
 # In ~/usr/t2t_usr/my_registrations.py
 
 from tensor2tensor.models import transformer
@@ -147,7 +147,7 @@ def transformer_my_very_own_hparams_set():
   ...
 ```
 
-```
+```python
 # In ~/usr/t2t_usr/__init__.py
 import my_registrations
 ```
