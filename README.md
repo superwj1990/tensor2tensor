@@ -157,7 +157,7 @@ t2t-trainer --t2t_usr_dir=~/usr/t2t_usr --registry_help
 
 你可以在注册的HParams下看到你的`transformer_my_very_own_hparams_set`，你可以直接通过`--hparams_set`标记在命令行直接使用它。<br>
 
-## 添加一个dataset<br>
+## 添加一个dataset
 参见data generators README。<br>
 --------------------------------------------------------------------------------
 注释：这不是谷歌的官方资料。<br>
