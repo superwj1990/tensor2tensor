@@ -5,7 +5,7 @@ T2T是一个模块化和可扩展的库和二进制文件，用于基于TensorFl
 
 **目录**<br>
 * [Walkthrough](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#walkthrough)
-*	Installation
+*	[Installation](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#安装)
 *	Features
 *	T2T Overview<br>
     * Datasets<br>
