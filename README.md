@@ -6,15 +6,15 @@ T2T是一个模块化和可扩展的库和二进制文件，用于基于TensorFl
 **目录**<br>
 * [Walkthrough](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#walkthrough)
 *	[Installation](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#安装)
-*	Features
-*	T2T Overview<br>
-    * Datasets<br>
-    * Problems and Modalities<br>
-    * Models<br>
-    * Hyperparameter Sets<br>
-    * Trainer<br>
-*	Adding your own components
-*	Adding a dataset
+*	[Features](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#特点)
+*	[T2T Overview](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#t2t-概述)<br>
+    * [Datasets](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#datasets)<br>
+    * [Problems and Modalities](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#problems-and-modalities)<br>
+    * [Models](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#models)<br>
+    * [Hyperparameter Sets](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#hyperparameter-sets)<br>
+    * [Trainer](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#trainer)<br>
+*	[Adding your own components](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#添加你的components)
+*	[Adding a dataset](https://github.com/superwj1990/tensor2tensor/blob/master/README.md#添加一个dataset)
 --------------------------------------------------------------------------------
 ## Walkthrough<br>
 这是在WMT数据上训练一个英语-德语翻译模型的walkthrough，采用《Attention Is All You Need》中的Transformer模型。<br>
